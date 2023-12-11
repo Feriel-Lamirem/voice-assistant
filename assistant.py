@@ -16,7 +16,7 @@ class VoiceAssistant:
     """
     def __init__(self):
         # Set your OpenAI API key
-        openai.api_key = "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"
+        openai.api_key = " "
         # Initialize the assistant's history
         self.history = [
                 {"role": "system", "content": "You are a helpful assistant. The user is english. Only speak english."}
